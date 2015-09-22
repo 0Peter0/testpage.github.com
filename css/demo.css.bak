@@ -33,7 +33,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     color: white;
-	background-color:black;
+	backgroud-color:black;
     -webkit-font-smoothing: antialiased;
     overflow-y: scroll;
     overflow-x: hidden;
