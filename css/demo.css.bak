@@ -33,7 +33,7 @@ body {
     font-weight: 300;
     font-size: 15px;
     color: white;
-	backgroud-color:black;
+	background-color:black;
     -webkit-font-smoothing: antialiased;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -181,7 +181,7 @@ a {
 	width: 100%;
 	max-width: 450px;
 	margin: 0 auto;
-	border-radius: 20px;
+	border-radius: 10px;
 	position: relative;
 	background: #000 url(../images/black_denim.png);
 	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
