@@ -41,11 +41,9 @@ src="http://maps.googleapis.com/maps/api/js">
 		
 		</div>
     </section>
-	<section class="page-middle">
-	<img src="images/middle.gif" alt="Smiley face"width="100%">
-    </section>
 
     <section class="main-content">
+		<img src="images/middle.gif" alt="Smiley face"width="100%">
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
 
@@ -120,9 +118,6 @@ src="http://maps.googleapis.com/maps/api/js">
 
 			  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
 			  // This event listener calls addMarker() when the map is clicked.
-			  google.maps.event.addListener(map, 'click', function(event) {
-				addMarker(event.latLng, map);
-			  });
 			   // Add a marker at the center of the map.
 			  addMarker(latlng, map);
 			}
