@@ -183,7 +183,7 @@ a {
 	border-radius: 10px;
 	position: relative;
 	background: #000 url(../images/black_denim.png);
-	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
+	box-shadow: 0 2px 1px rgba(255,255,255,0.2), 0 -2px 1px rgba(255,255,255,0.2);
 }
 
 .lt-ie8 .elastislide-list {
