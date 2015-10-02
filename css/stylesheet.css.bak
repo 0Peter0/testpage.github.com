@@ -356,24 +356,25 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 #calendar {
-		width: 500px;
-		height: 450px;
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
 	}
 #googleMap {
-		width: 500px;
-		height: 450px;
+		width: 300px;
+		height: 250px;
 		margin: 0 auto;
 	}
  }
 
 @media screen and (max-width: 42em) {
 #calendar {
-		width: 500px;
-		height: 450px;
+		width: 300px;
+		height: 250px;
 	}
 #googleMap {
-		width: 500px;
-		height: 450px;
+		width: 300px;
+		height: 250px;
 		margin: 0 auto;
 	}
 }

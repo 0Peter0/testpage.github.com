@@ -126,7 +126,7 @@
 }
 
 .image-preview img {
-	border-radius: 0 0 7px 7px;
+	border-radius: 7px 7px 0 0;
 	max-width: 100%;
 	display: block;
 }
