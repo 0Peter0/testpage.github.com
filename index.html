@@ -100,15 +100,18 @@ src="http://maps.googleapis.com/maps/api/js">
 
     </section>
 		<script type="text/javascript">
-	$(document).ready(function() {
-        $('#calendar').fullCalendar({
-            defaultDate: '2014-09-12',
-            editable: true,
-			height: 400,
-			contentHeight: 460,
-            eventLimit: true, // allow "more" link when too many events
-        });
-    });
+		$(document).ready(function() {
+		$('#calendar').fullCalendar({
+			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
+			events: {
+				googleCalendarId: 'daktem2000@gmail.com',
+					height: 400,
+				contentHeight: 460,
+				className: 'gcal-event' // an option!
+			}
+		});
+	});
+
 			function initialize() {
 			  var marker;
 			  var latlng = new google.maps.LatLng(37.550287, 127.0155489);
