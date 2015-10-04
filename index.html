@@ -110,6 +110,8 @@ src="http://maps.googleapis.com/maps/api/js">
 			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
 			events: {
 				googleCalendarId: 'daktem2000@gmail.com',
+					height: 400,
+				contentHeight: 460,
 				className: 'gcal-event' // an option!
 			}
 		});
@@ -140,13 +142,10 @@ src="http://maps.googleapis.com/maps/api/js">
 			google.maps.event.addDomListener(window, 'load', initialize);
 			google.maps.event.addDomListener(window, "resize", function() {
              var center = map.getCenter();
+			 console.log("!@#!@#!@#");
              google.maps.event.trigger(map, "resize");
              map.setCenter(center); 
             });
-			 google.maps.event.addListenerOnce(map, 'idle', function(){
-       		  google.maps.event.trigger(map, 'resize');
-			          map.setCenter(location);
-					      });
 			var num = 302; //number of pixels before modifying styles
 			
 			$(window).bind('scroll', function () {
