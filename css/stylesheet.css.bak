@@ -64,11 +64,26 @@ a {
 	vertical-align: middle;
 		border: none;
 }
-.two-col{
+@media screen and (min-width: 64em) {
+  .two-col{
 	display: table;
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+ .two-col{
+	display: block;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+@media screen and (max-width: 42em) {
+   .two-col{
+	display: block;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0; }
 }
 .content{
 	    display: table-cell;
@@ -360,8 +375,6 @@ a {
 
 @media screen and (min-width: 64em) {
 #calendar {
-		width: 99%;
-		display: table-cell;
 	}
 #googleMap {
 		width: 500px;
@@ -372,8 +385,6 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 #calendar {
-		width: 99%;
-		margin: 0 auto;
 	}
 #googleMap {
 		width: 300px;
@@ -384,8 +395,6 @@ a {
 
 @media screen and (max-width: 42em) {
 #calendar {
-		width: 99%;
-		margin: 0 auto;
 	}
 #googleMap {
 		width: 300px;

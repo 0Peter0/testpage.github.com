@@ -64,11 +64,26 @@ a {
 	vertical-align: middle;
 		border: none;
 }
-.two-col{
+@media screen and (min-width: 64em) {
+  .two-col{
 	display: table;
     width: 100%;
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 0;}}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+ .two-col{
+	display: block;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;}}
+
+@media screen and (max-width: 42em) {
+   .two-col{
+	display: block;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0; }
 }
 .content{
 	    display: table-cell;
