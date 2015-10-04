@@ -70,6 +70,11 @@ a {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.content{
+	    display: table-cell;
+    vertical-align: top;
+	    width: 99%;
+}
 .sidebar{
 	width: 1%;
     white-space: nowrap;
@@ -355,7 +360,7 @@ a {
 
 @media screen and (min-width: 64em) {
 #calendar {
-		width: 800px;
+		width: 99%;
 		display: table-cell;
 	}
 #googleMap {
@@ -367,7 +372,7 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 #calendar {
-		width: 100%;
+		width: 99%;
 		margin: 0 auto;
 	}
 #googleMap {
