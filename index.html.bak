@@ -92,10 +92,10 @@ src="http://maps.googleapis.com/maps/api/js">
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 <div class="two-col">
-	<div class="sidebar"><p>filler filler filler</p></div>
 	<div class='content'>
 		<div id="googleMap"></div>
 	</div>
+	<div class="sidebar"><p>filler filler filler</p></div>
 </div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/0Peter0/testpage.github.com">Testpage.GitHub.com</a> is maintained by <a href="https://github.com/0Peter0">0Peter0</a>.</span>
@@ -130,12 +130,6 @@ src="http://maps.googleapis.com/maps/api/js">
 			  // This event listener calls addMarker() when the map is clicked.
 			   // Add a marker at the center of the map.
 			  addMarker(latlng, map);
-			  google.maps.event.addDomListener(window, 'load', initialize);
-			  google.maps.event.addDomListener(window, "resize", function() {
-			  var center = map.getCenter();
-			  google.maps.event.trigger(map, "resize");
-			  map.setCenter(center); 
-			  });
 			}
 			function addMarker(location, map) {
 			  // Add the marker at the clicked location, and add the next-available label
