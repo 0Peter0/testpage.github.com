@@ -69,29 +69,30 @@ src="http://maps.googleapis.com/maps/api/js">
 					</div>
 					<!-- Elastislide Carousel -->
 					<ul id="carousel" class="elastislide-list">
-						<li data-preview="images/large/4.jpg"><a href="#"><img src="images/small/4.jpg" alt="image04" /></a></li>
-						<li data-preview="images/large/5.jpg"><a href="#"><img src="images/small/5.jpg" alt="image05" /></a></li>
-						<li data-preview="images/large/6.jpg"><a href="#"><img src="images/small/6.jpg" alt="image06" /></a></li>
-						<li data-preview="images/large/7.jpg"><a href="#"><img src="images/small/7.jpg" alt="image07" /></a></li>
-						<li data-preview="images/large/1.jpg"><a href="#"><img src="images/small/1.jpg" alt="image01" /></a></li>
-						<li data-preview="images/large/2.jpg"><a href="#"><img src="images/small/2.jpg" alt="image02" /></a></li>
-						<li data-preview="images/large/3.jpg"><a href="#"><img src="images/small/3.jpg" alt="image03" /></a></li>
-						<li data-preview="images/large/8.jpg"><a href="#"><img src="images/small/8.jpg" alt="image08" /></a></li>
-						<li data-preview="images/large/9.jpg"><a href="#"><img src="images/small/9.jpg" alt="image09" /></a></li>
-						<li data-preview="images/large/10.jpg"><a href="#"><img src="images/small/10.jpg" alt="image10" /></a></li>
+						<li data-preview="images/large/4.jpg"><a><img src="images/small/4.jpg" alt="image04" /></a></li>
+						<li data-preview="images/large/5.jpg"><a><img src="images/small/5.jpg" alt="image05" /></a></li>
+						<li data-preview="images/large/6.jpg"><a><img src="images/small/6.jpg" alt="image06" /></a></li>
+						<li data-preview="images/large/7.jpg"><a><img src="images/small/7.jpg" alt="image07" /></a></li>
+						<li data-preview="images/large/1.jpg"><a><img src="images/small/1.jpg" alt="image01" /></a></li>
+						<li data-preview="images/large/2.jpg"><a><img src="images/small/2.jpg" alt="image02" /></a></li>
+						<li data-preview="images/large/3.jpg"><a><img src="images/small/3.jpg" alt="image03" /></a></li>
+						<li data-preview="images/large/8.jpg"><a><img src="images/small/8.jpg" alt="image08" /></a></li>
+						<li data-preview="images/large/9.jpg"><a><img src="images/small/9.jpg" alt="image09" /></a></li>
+						<li data-preview="images/large/10.jpg"><a><img src="images/small/10.jpg" alt="image10" /></a></li>
 					</ul>
 					<!-- End Elastislide Carousel -->
 				</div>
 
 <p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<div id='calendar'></div>
-
+<div class="two-col">
+	<div id='calendar'></div>
+</div>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-<div id="googleMap"></div>
-
+<div class="two-col">
+	<div id="googleMap"></div>
+	<div id="sidebar"><p>filler filler filler</p></div>
+</div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/0Peter0/testpage.github.com">Testpage.GitHub.com</a> is maintained by <a href="https://github.com/0Peter0">0Peter0</a>.</span>
 
@@ -102,7 +103,7 @@ src="http://maps.googleapis.com/maps/api/js">
 		<script type="text/javascript">
 		$(document).ready(function() {
 		$('#calendar').fullCalendar({
-			googleCalendarApiKey: 'AIzaSyA3heydIwXmx7EDIIq7R5Ekel-HdCMkRaA',
+			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
 			events: {
 				googleCalendarId: 'daktem2000@gmail.com',
 					height: 400,
@@ -114,7 +115,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
 			function initialize() {
 			  var marker;
-			  var latlng = new google.maps.LatLng(37.550287, 127.0155489);
+			  var latlng = new google.maps.LatLng(37.5567341, 126.98251240000002);
 			  var mapProp = {
 				center:latlng,
 				zoom:17,
@@ -131,7 +132,6 @@ src="http://maps.googleapis.com/maps/api/js">
 			  // from the array of alphabetical characters.
 			  var marker = new google.maps.Marker({
 				position: location,
-				label: "ㅗ",
 				map: map
 			  });
 			}

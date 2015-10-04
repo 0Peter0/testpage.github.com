@@ -64,6 +64,16 @@ a {
 	vertical-align: middle;
 		border: none;
 }
+.two-col{
+	display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.sidebar{
+	width: 1%;
+    white-space: nowrap;
+}
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -346,11 +356,13 @@ a {
 @media screen and (min-width: 64em) {
 #calendar {
 		width: 800px;
+		display: table-cell;
 	}
 #googleMap {
 		width: 500px;
 		height: 450px;
-		margin: auto  0;
+		margin: 0;
+		    display: table-cell;
 	} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -367,7 +379,7 @@ a {
 
 @media screen and (max-width: 42em) {
 #calendar {
-		width: 100%;
+		width: 99%;
 		margin: 0 auto;
 	}
 #googleMap {
