@@ -69,14 +69,14 @@ a {
 	display: table;
     width: 100%;
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 0;}}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
  .two-col{
 	display: block;
     width: 100%;
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 0;}}
 
 @media screen and (max-width: 42em) {
    .two-col{
@@ -88,10 +88,10 @@ a {
 .content{
 	    display: table-cell;
     vertical-align: top;
-	    width: 99%;
+	    width: 60%;
 }
 .sidebar{
-	width: 1%;
+	width: 40%;
     white-space: nowrap;
 }
 .btn {
@@ -373,33 +373,38 @@ a {
 	z-index: 2147483647
 }
 
-@media screen and (min-width: 64em) {
-#calendar {
-	}
 #googleMap {
 		width: 500px;
 		height: 450px;
 		margin: 0;
 		    display: table-cell;
 	} }
+@media screen and (min-width: 64em) {
+ #googleMap {
+		width: 500px;
+		height: 500px;
+		margin: 0;
+		    display: table-cell;
+	} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-#calendar {
-	}
-#googleMap {
-		width: 300px;
-		height: 250px;
-		margin: 0 auto;
-	}
- }
+  #googleMap {
+		width: 700px;
+		height: 700px;
+		margin: 0;
+		    display: table-cell;
+	} }
 
 @media screen and (max-width: 42em) {
-#calendar {
-	}
-#googleMap {
-		width: 300px;
-		height: 250px;
-		margin: 0 auto;
-	}
-}
+ #googleMap {
+		width: 500px;
+		height: 450px;
+		margin: 0;
+		    display: table-cell;
+	} }
 
+.fixed {
+    position:fixed;
+    top:0;
+	z-index: 2147483647
+}
