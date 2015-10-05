@@ -34,7 +34,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			<ul>
 			    <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
 			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
-			    <li><a href="#unispace" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
+			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
 			    <li><a href="#explore" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
 			</ul>
 		
