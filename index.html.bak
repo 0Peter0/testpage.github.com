@@ -35,7 +35,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			    <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
 			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
 			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
+			    <li><a href="#contact" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
 			</ul>
 		
 		</div>
@@ -47,7 +47,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			   <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
 			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
 			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
+			    <li><a href="#contact" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
 			</ul>
 		</div>
     </section>
@@ -69,15 +69,15 @@ src="http://maps.googleapis.com/maps/api/js">
 					</div>
 					<!-- Elastislide Carousel -->
 					<ul id="carousel" class="elastislide-list">
-						<li data-preview="images/large/3rd-4.jpg"><a><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
-						<li data-preview="images/large/3rd-5.jpg"><a><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
-						<li data-preview="images/large/3rd-6.jpg"><a><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
-						<li data-preview="images/large/3rd-7.jpg"><a><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
-						<li data-preview="images/large/3rd-1.jpg"><a><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
-						<li data-preview="images/large/3rd-2.jpg"><a><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
-						<li data-preview="images/large/3rd-8.jpg"><a><img src="images/small/3rd-8.jpg" alt="image08" /></a></li>
-						<li data-preview="images/large/3rd-9.jpg"><a><img src="images/small/3rd-9.jpg" alt="image09" /></a></li>
-						<li data-preview="images/large/3rd-10.jpg"><a><img src="images/small/3rd-10.jpg" alt="image10" /></a></li>
+						<li data-preview="images/large/3rd-4.jpg"><a href="#"><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
+						<li data-preview="images/large/3rd-5.jpg"><a href="#"><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
+						<li data-preview="images/large/3rd-6.jpg"><a href="#"><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
+						<li data-preview="images/large/3rd-7.jpg"><a href="#"><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
+						<li data-preview="images/large/3rd-1.jpg"><a href="#"><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
+						<li data-preview="images/large/3rd-2.jpg"><a href="#"><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
+						<li data-preview="images/large/3rd-8.jpg"><a href="#"><img src="images/small/3rd-8.jpg" alt="image08" /></a></li>
+						<li data-preview="images/large/3rd-9.jpg"><a href="#"><img src="images/small/3rd-9.jpg" alt="image09" /></a></li>
+						<li data-preview="images/large/3rd-10.jpg"><a href="#"><img src="images/small/3rd-10.jpg" alt="image10" /></a></li>
 					</ul>
 					<!-- End Elastislide Carousel -->
 				</div>
@@ -108,14 +108,6 @@ AND A LOT MORE</p></div>
 </div>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-<div class="two-col">
-	<div class="sidebar-left"><p>하이퍼 스테이션<br>
-서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
-(3호선 남부터미널역 5번 출구 100m)</p></div>
-	<div class='content'>
-		<div id="googleMap"></div>
-	</div>
-</div>
 <h2 id="unispace34">UniSpace34</h2>
 <div class="gallery">
 	<div class="image-preview">
@@ -123,16 +115,16 @@ AND A LOT MORE</p></div>
 	</div>
 	<!-- Elastislide Carousel -->
 	<ul id="carousel2" class="elastislide-list">
-		<li data-preview="images/large/4.jpg"><a><img src="images/small/4.jpg" alt="image04" /></a></li>
-		<li data-preview="images/large/5.jpg"><a><img src="images/small/5.jpg" alt="image05" /></a></li>
-		<li data-preview="images/large/6.jpg"><a><img src="images/small/6.jpg" alt="image06" /></a></li>
-		<li data-preview="images/large/7.jpg"><a><img src="images/small/7.jpg" alt="image07" /></a></li>
-		<li data-preview="images/large/1.jpg"><a><img src="images/small/1.jpg" alt="image01" /></a></li>
-		<li data-preview="images/large/2.jpg"><a><img src="images/small/2.jpg" alt="image02" /></a></li>
-		<li data-preview="images/large/3.jpg"><a><img src="images/small/3.jpg" alt="image03" /></a></li>
-		<li data-preview="images/large/8.jpg"><a><img src="images/small/8.jpg" alt="image08" /></a></li>
-		<li data-preview="images/large/9.jpg"><a><img src="images/small/9.jpg" alt="image09" /></a></li>
-		<li data-preview="images/large/10.jpg"><a><img src="images/small/10.jpg" alt="image10" /></a></li>
+		<li data-preview="images/large/4.jpg"><a href="#"><img src="images/small/4.jpg" alt="image04" /></a></li>
+		<li data-preview="images/large/5.jpg"><a href="#"><img src="images/small/5.jpg" alt="image05" /></a></li>
+		<li data-preview="images/large/6.jpg"><a href="#"><img src="images/small/6.jpg" alt="image06" /></a></li>
+		<li data-preview="images/large/7.jpg"><a href="#"><img src="images/small/7.jpg" alt="image07" /></a></li>
+		<li data-preview="images/large/1.jpg"><a href="#"><img src="images/small/1.jpg" alt="image01" /></a></li>
+		<li data-preview="images/large/2.jpg"><a href="#"><img src="images/small/2.jpg" alt="image02" /></a></li>
+		<li data-preview="images/large/3.jpg"><a href="#"><img src="images/small/3.jpg" alt="image03" /></a></li>
+		<li data-preview="images/large/8.jpg"><a href="#"><img src="images/small/8.jpg" alt="image08" /></a></li>
+		<li data-preview="images/large/9.jpg"><a href="#"><img src="images/small/9.jpg" alt="image09" /></a></li>
+		<li data-preview="images/large/10.jpg"><a href="#"><img src="images/small/10.jpg" alt="image10" /></a></li>
 	</ul>
 	<!-- End Elastislide Carousel -->
 </div>
@@ -159,6 +151,15 @@ WORKSHOPS<br/>
 PRIVATE GATHERINGS<br/>
 CLASS<br/>
 AND A LOT MORE</p></div>
+</div>
+<h2 id="contact">Ccontact</h2>
+<div class="two-col">
+	<div class="sidebar-left"><p>하이퍼 스테이션<br>
+서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
+(3호선 남부터미널역 5번 출구 100m)</p></div>
+	<div class='content'>
+		<div id="googleMap"></div>
+	</div>
 </div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/0Peter0/testpage.github.com">Testpage.GitHub.com</a> is maintained by <a href="https://github.com/0Peter0">0Peter0</a>.</span>
