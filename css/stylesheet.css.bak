@@ -90,7 +90,13 @@ a {
     vertical-align: top;
 	    width: 60%;
 }
-.sidebar{
+.sidebar-right{
+	padding-left: 45px;
+	width: 40%;
+    white-space: nowrap;
+}
+.sidebar-left{
+	padding-right: 45px;
 	width: 40%;
     white-space: nowrap;
 }
@@ -397,8 +403,8 @@ a {
 
 @media screen and (max-width: 42em) {
  #googleMap {
-		width: 500px;
-		height: 450px;
+		width: 700px;
+		height: 700px;
 		margin: 0;
 		    display: table-cell;
 	} }

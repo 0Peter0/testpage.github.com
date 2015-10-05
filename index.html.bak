@@ -32,9 +32,9 @@ src="http://maps.googleapis.com/maps/api/js">
     <section class="page-menu">
 		<div class="menu">
 			<ul>
-			    <li><a href="#features" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
+			    <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
+			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
+			    <li><a href="#unispace" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
 			    <li><a href="#explore" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
 			</ul>
 		
@@ -44,9 +44,9 @@ src="http://maps.googleapis.com/maps/api/js">
 	<section class="s-page-menu">
 		<div class="s-menu">
 			<ul>
-			   <li><a href="#features" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
-			    <li><a href="#explore" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
+			   <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
+			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
+			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
 			    <li><a href="#explore" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
 			</ul>
 		</div>
@@ -54,6 +54,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
     <section class="main-content">
 		<img src="images/middle.gif" alt="Smiley face"width="100%">
+<h2 id="about">About</h2>
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
 
@@ -61,23 +62,22 @@ src="http://maps.googleapis.com/maps/api/js">
 
 <p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-
+<h2 id="3rd_space">3rd Space</h2>
 <div class="gallery">
 					<div class="image-preview">
-						<img id="preview" src="images/large/4.jpg" />
+						<img id="preview" src="images/large/3rd-4.jpg" />
 					</div>
 					<!-- Elastislide Carousel -->
 					<ul id="carousel" class="elastislide-list">
-						<li data-preview="images/large/4.jpg"><a><img src="images/small/4.jpg" alt="image04" /></a></li>
-						<li data-preview="images/large/5.jpg"><a><img src="images/small/5.jpg" alt="image05" /></a></li>
-						<li data-preview="images/large/6.jpg"><a><img src="images/small/6.jpg" alt="image06" /></a></li>
-						<li data-preview="images/large/7.jpg"><a><img src="images/small/7.jpg" alt="image07" /></a></li>
-						<li data-preview="images/large/1.jpg"><a><img src="images/small/1.jpg" alt="image01" /></a></li>
-						<li data-preview="images/large/2.jpg"><a><img src="images/small/2.jpg" alt="image02" /></a></li>
-						<li data-preview="images/large/3.jpg"><a><img src="images/small/3.jpg" alt="image03" /></a></li>
-						<li data-preview="images/large/8.jpg"><a><img src="images/small/8.jpg" alt="image08" /></a></li>
-						<li data-preview="images/large/9.jpg"><a><img src="images/small/9.jpg" alt="image09" /></a></li>
-						<li data-preview="images/large/10.jpg"><a><img src="images/small/10.jpg" alt="image10" /></a></li>
+						<li data-preview="images/large/3rd-4.jpg"><a><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
+						<li data-preview="images/large/3rd-5.jpg"><a><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
+						<li data-preview="images/large/3rd-6.jpg"><a><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
+						<li data-preview="images/large/3rd-7.jpg"><a><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
+						<li data-preview="images/large/3rd-1.jpg"><a><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
+						<li data-preview="images/large/3rd-2.jpg"><a><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
+						<li data-preview="images/large/3rd-8.jpg"><a><img src="images/small/3rd-8.jpg" alt="image08" /></a></li>
+						<li data-preview="images/large/3rd-9.jpg"><a><img src="images/small/3rd-9.jpg" alt="image09" /></a></li>
+						<li data-preview="images/large/3rd-10.jpg"><a><img src="images/small/3rd-10.jpg" alt="image10" /></a></li>
 					</ul>
 					<!-- End Elastislide Carousel -->
 				</div>
@@ -87,15 +87,78 @@ src="http://maps.googleapis.com/maps/api/js">
 	<div class='content'>
 		<div id='calendar'></div>
 	</div>
-	<div class="sidebar"><p>filler filler filler</p></div>
+	<div class="sidebar-right"><p>3rd space<br/>
+제 3공간은 복합여가공간으로 가정과 일터 외에 나만의<br/>
+우리만의 아지트같은 공간을 표방합니다.<br/>
+ 
+"좋은 모임을 만들자."<br/>
+"캐주얼한 모임과 파티가 자연스러워 지게 하자."<br/>
+"취미공간 내 작업실, 아지트를 갖게 하자"<br/>
+ 
+다 똑같은 취미와 소비적 여가를 벗고
+<br/>자신이 진정 좋아하는 일을, 즐거움을 향유하고자 하는 사람들이
+<br/>이 공간을 찾았으면 하는 바람입니다.<br/>
+<br/>
+PARTIES<br/>
+PERSONAL TRAINING<br/>
+WORKSHOPS<br/>
+PRIVATE GATHERINGS<br/>
+CLASS<br/>
+AND A LOT MORE</p></div>
 </div>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 <div class="two-col">
+	<div class="sidebar-left"><p>하이퍼 스테이션<br>
+서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
+(3호선 남부터미널역 5번 출구 100m)</p></div>
 	<div class='content'>
 		<div id="googleMap"></div>
 	</div>
-	<div class="sidebar"><p>filler filler filler</p></div>
+</div>
+<h2 id="unispace34">UniSpace34</h2>
+<div class="gallery">
+	<div class="image-preview">
+		<img id="preview2" src="images/large/4.jpg" />
+	</div>
+	<!-- Elastislide Carousel -->
+	<ul id="carousel2" class="elastislide-list">
+		<li data-preview="images/large/4.jpg"><a><img src="images/small/4.jpg" alt="image04" /></a></li>
+		<li data-preview="images/large/5.jpg"><a><img src="images/small/5.jpg" alt="image05" /></a></li>
+		<li data-preview="images/large/6.jpg"><a><img src="images/small/6.jpg" alt="image06" /></a></li>
+		<li data-preview="images/large/7.jpg"><a><img src="images/small/7.jpg" alt="image07" /></a></li>
+		<li data-preview="images/large/1.jpg"><a><img src="images/small/1.jpg" alt="image01" /></a></li>
+		<li data-preview="images/large/2.jpg"><a><img src="images/small/2.jpg" alt="image02" /></a></li>
+		<li data-preview="images/large/3.jpg"><a><img src="images/small/3.jpg" alt="image03" /></a></li>
+		<li data-preview="images/large/8.jpg"><a><img src="images/small/8.jpg" alt="image08" /></a></li>
+		<li data-preview="images/large/9.jpg"><a><img src="images/small/9.jpg" alt="image09" /></a></li>
+		<li data-preview="images/large/10.jpg"><a><img src="images/small/10.jpg" alt="image10" /></a></li>
+	</ul>
+	<!-- End Elastislide Carousel -->
+</div>
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<div class="two-col">
+	<div class='content'>
+		<div id='calendar2'></div>
+	</div>
+	<div class="sidebar-right"><p>3rd space<br/>
+제 3공간은 복합여가공간으로 가정과 일터 외에 나만의<br/>
+우리만의 아지트같은 공간을 표방합니다.<br/>
+ 
+"좋은 모임을 만들자."<br/>
+"캐주얼한 모임과 파티가 자연스러워 지게 하자."<br/>
+"취미공간 내 작업실, 아지트를 갖게 하자"<br/>
+ 
+다 똑같은 취미와 소비적 여가를 벗고
+<br/>자신이 진정 좋아하는 일을, 즐거움을 향유하고자 하는 사람들이
+<br/>이 공간을 찾았으면 하는 바람입니다.<br/>
+<br/>
+PARTIES<br/>
+PERSONAL TRAINING<br/>
+WORKSHOPS<br/>
+PRIVATE GATHERINGS<br/>
+CLASS<br/>
+AND A LOT MORE</p></div>
 </div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/0Peter0/testpage.github.com">Testpage.GitHub.com</a> is maintained by <a href="https://github.com/0Peter0">0Peter0</a>.</span>
@@ -115,18 +178,27 @@ src="http://maps.googleapis.com/maps/api/js">
 				className: 'gcal-event' // an option!
 			}
 		});
+		$('#calendar2').fullCalendar({
+			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
+			events: {
+				googleCalendarId: 'daktem2000@gmail.com',
+					height: 400,
+				contentHeight: 460,
+				className: 'gcal-event' // an option!
+			}
+		});
 	});
-
+			var map;
 			function initialize() {
 			  var marker;
-			  var latlng = new google.maps.LatLng(37.5567341, 126.98251240000002);
+			  var latlng = new google.maps.LatLng(37.4843464, 127.01444140000001);
 			  var mapProp = {
 				center:latlng,
 				zoom:17,
 				mapTypeId:google.maps.MapTypeId.ROADMAP
 			  };
 
-			  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+			  map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
 			  // This event listener calls addMarker() when the map is clicked.
 			   // Add a marker at the center of the map.
 			  addMarker(latlng, map);
@@ -140,6 +212,11 @@ src="http://maps.googleapis.com/maps/api/js">
 			  });
 			}
 			google.maps.event.addDomListener(window, 'load', initialize);
+			google.maps.event.addDomListener(window, "resize", function() {
+			 var center = map.getCenter();
+			 google.maps.event.trigger(map, "resize");
+			 map.setCenter(center); 
+			});
 			
 			var num = 302; //number of pixels before modifying styles
 			
@@ -152,6 +229,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			});
 
 			var current = 0,
+
 				$preview = $( '#preview' ),
 				$carouselEl = $( '#carousel' ),
 				$carouselItems = $carouselEl.children(),
@@ -170,13 +248,39 @@ src="http://maps.googleapis.com/maps/api/js">
 						
 					}
 				} );
+				var current2 = 0,
+				$preview2 = $( '#preview2' ),
+				$carouselEl2 = $( '#carousel2' ),
+				$carouselItems2 = $carouselEl2.children(),
+				carousel2 = $carouselEl2.elastislide( {
+					current : current2,
+					minItems : 4,
+					onClick : function( el, pos, evt ) {
+						changeImage2( el, pos );
+						evt.preventDefault();
+
+					},
+					onReady : function() {
+
+						changeImage2( $carouselItems2.eq( current ), current2 );
+						
+					}
+				} );
 
 			function changeImage( el, pos ) {
-
 				$preview.attr( 'src', el.data( 'preview' ) );
 				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
 				carousel.setCurrent( pos );
+
+			}
+
+			function changeImage2( el, pos ) {
+				$preview2.attr( 'src', el.data( 'preview' ) );
+				console.log("el.data( 'preview' )"+el.data( 'preview' ));
+				$carouselItems2.removeClass( 'current-img' );
+				el.addClass( 'current-img' );
+				carousel2.setCurrent( pos );
 
 			}
 

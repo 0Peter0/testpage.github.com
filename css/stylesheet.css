@@ -90,7 +90,13 @@ a {
     vertical-align: top;
 	    width: 60%;
 }
-.sidebar{
+.sidebar-right{
+	padding-left: 45px;
+	width: 40%;
+    white-space: nowrap;
+}
+.sidebar-left{
+	padding-right: 45px;
 	width: 40%;
     white-space: nowrap;
 }
@@ -374,37 +380,7 @@ a {
 }
 
 #googleMap {
-		width: 500px;
-		height: 450px;
-		margin: 0;
-		    display: table-cell;
-	} }
-@media screen and (min-width: 64em) {
- #googleMap {
-		width: 500px;
+		width: 100%;
 		height: 500px;
 		margin: 0;
-		    display: table-cell;
-	} }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  #googleMap {
-		width: 700px;
-		height: 700px;
-		margin: 0;
-		    display: table-cell;
-	} }
-
-@media screen and (max-width: 42em) {
- #googleMap {
-		width: 700px;
-		height: 700px;
-		margin: 0;
-		    display: table-cell;
-	} }
-
-.fixed {
-    position:fixed;
-    top:0;
-	z-index: 2147483647
-}
+} 
