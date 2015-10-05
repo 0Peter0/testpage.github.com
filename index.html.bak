@@ -26,7 +26,11 @@ src="http://maps.googleapis.com/maps/api/js">
   </head>
   <body>
     <section class="page-header">
-	<img src="images/top.gif" alt="Smiley face"width="100%">
+		<img src="images/top.gif" alt="Smiley face"width="100%">
+    </section>
+
+	<section class="page-header-s">
+		<img src="images/top-s.jpg" alt="Smiley face"width="100%">
     </section>
 
     <section class="page-menu">
@@ -44,16 +48,21 @@ src="http://maps.googleapis.com/maps/api/js">
 	<section class="s-page-menu">
 		<div class="s-menu">
 			<ul>
-			   <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
-			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
-			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
-			    <li><a href="#contact" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
+			   <li><a href="#about" id="a_menu"><img src="images/About-s.png" alt="image04" /></a></li>
+			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd  Space-s.png" alt="image04" /></a></li>
+			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34-s.png" alt="image04" /></a></li>
+			    <li><a href="#contact" id="c_menu"><img src="images/Contact-s.png" alt="image04" /></a></li>
 			</ul>
 		</div>
     </section>
 
     <section class="main-content">
+	<div class="middle">
 		<img src="images/middle.gif" alt="Smiley face"width="100%">
+	</div>
+	<div class="middle-s">
+		<img src="images/middle-s.jpg" alt="Smiley face"width="100%">
+	</div>
 <h2 id="about">About</h2>
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
@@ -152,7 +161,7 @@ PRIVATE GATHERINGS<br/>
 CLASS<br/>
 AND A LOT MORE</p></div>
 </div>
-<h2 id="contact">Ccontact</h2>
+<h2 id="contact">Contact</h2>
 <div class="two-col">
 	<div class="sidebar-left"><p>하이퍼 스테이션<br>
 서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
@@ -169,6 +178,7 @@ AND A LOT MORE</p></div>
 
     </section>
 		<script type="text/javascript">
+		var map;
 		$(document).ready(function() {
 		$('#calendar').fullCalendar({
 			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
@@ -189,7 +199,7 @@ AND A LOT MORE</p></div>
 			}
 		});
 	});
-			var map;
+			
 			function initialize() {
 			  var marker;
 			  var latlng = new google.maps.LatLng(37.4843464, 127.01444140000001);
