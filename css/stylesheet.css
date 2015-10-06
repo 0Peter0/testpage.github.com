@@ -457,8 +457,6 @@ display: block;
 }
 
 #googleMap {
-		width: 100%;
-		height: 500px;
-		margin: 0;
+		 margin: 0 auto;
 		max-width:none;
 } 
