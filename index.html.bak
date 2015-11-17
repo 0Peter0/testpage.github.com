@@ -26,7 +26,7 @@ src="http://maps.googleapis.com/maps/api/js">
   </head>
   <body>
     <section class="page-header">
-		<img src="images/top.gif" alt="Smiley face"width="100%">
+		<img src="images/top.png" alt="Smiley face"width="100%">
     </section>
 
 	<section class="page-header-s">
@@ -167,7 +167,7 @@ AND A LOT MORE</p></div>
 서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
 (3호선 남부터미널역 5번 출구 100m)</p></div>
 	<div class='content'>
-		<div id="googleMap" style="width:800px;height:380px;"></div>
+		<div id="googleMap" style="width:700px;height:380px;"></div>
 	</div>
 </div>
       <footer class="site-footer">
