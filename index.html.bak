@@ -94,7 +94,7 @@ src="http://maps.googleapis.com/maps/api/js">
 	<div class='content'>
 		<div id='calendar'></div>
 	</div>
-	<div class="sidebar-right"><h2>가정과 일터를 벗어나 놀이와 여가활동을 즐길 수 있는 제3의 공간 <h2/>
+	<div class="sidebar-right"><h2>가정과 일터를 벗어나 놀이와 여가활동을 즐길 수 있는 제3의 공간 </h2>
 	<p>
 호프집, 성인 전화방으로 사용되던 남부터미널 근처 버려진 지하공간의 숨겨진 가치를 발굴하여 새로운 복합 여가 공간으로 리뉴얼을 하였습니다.</P>
 <p>
@@ -102,8 +102,8 @@ src="http://maps.googleapis.com/maps/api/js">
 <p>
 독특한 패턴의 바닥 타일, 깊은 컬러감의 이태리 소파, 아늑한 조명들을 통해 인터스트리얼 빈티지 구현, 안락함과 편안함을 느낄 수 있습니다.
 </P>
-<p>
-#3rdspace&nbsp;#파티&nbsp;#개인트레닝&nbsp;#워크샵&nbsp;#클레스&nbsp;#오픈키친&nbsp;#MT
+<p><p style="margin-bottom:3em;"><span style="color:#C8C8C8">
+#3rdspace&nbsp;&nbsp;#파티&nbsp;&nbsp;#개인트레닝&nbsp;&nbsp;#워크샵&nbsp;&nbsp;#클레스&nbsp;&nbsp;#오픈키친&nbsp;&nbsp;#MT</span>
 </P>
 </div>
 </div>
@@ -129,12 +129,12 @@ src="http://maps.googleapis.com/maps/api/js">
 	</ul>
 	<!-- End Elastislide Carousel -->
 </div>
-<p></p>
+<p style="margin-bottom:2em;"></p>
 <div class="two-col">
 	<div class='content'>
 		<div id='calendar2'></div>
 	</div>
-	<div class="sidebar-right"><p>도심 속의 우리들만의 아지트</p>
+	<div class="sidebar-right"><h2>도심 속의 우리들만의 아지트</h2>
  
 <p>
 한적한 동네 모퉁이의 술집, 주류창고, 지하 면직창고 3개의 버려진 공간을 연결하여 명동의 특수성을 고려한 도심형 스테이 Sogongro34 로 재탄생하였습니다.</p>
