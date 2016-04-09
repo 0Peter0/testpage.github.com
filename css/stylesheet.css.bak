@@ -93,12 +93,10 @@ a {
 .sidebar-right{
 		display: block;
 	width: 100%;
-    white-space: nowrap;
 }
 .sidebar-left{
 	display: block;
 	width: 100%;
-    white-space: nowrap;
 }
 .content{
     vertical-align: top;
@@ -114,11 +112,9 @@ a {
     border-spacing: 0; }
 .sidebar-right{
 	width: 100%;
-    white-space: nowrap;
 }
 .sidebar-left{
 	width: 100%;
-    white-space: nowrap;
 }
 .content{
     vertical-align: top;
