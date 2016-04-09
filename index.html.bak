@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Testpage.GitHub.com by 0Peter0</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.css' rel='stylesheet' />
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='http://fullcalendar.io/js/fullcalendar-2.4.0/lib/moment.min.js'></script>
+<script src='http://fullcalendar.io/js/fullcalendar-2.4.0/lib/jquery.min.js'></script>
+<script src="http://fullcalendar.io/js/fullcalendar-2.4.0/lib/jquery-ui.custom.min.js"></script>
+<script src='http://fullcalendar.io/js/fullcalendar-2.4.0/fullcalendar.min.js'></script>
+<script src='http://fullcalendar.io/js/fullcalendar-2.4.0/gcal.js'></script>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+	<script src="js/modernizr.custom.17475.js"></script>
+	<script type="text/javascript" src="js/jquerypp.custom.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+  </head>
+  <body>
+    <section class="page-header">
+		<img src="images/top.png" alt="Smiley face"width="100%">
+    </section>
+
+	<section class="page-header-s">
+		<img src="images/top-s.jpg" alt="Smiley face"width="100%">
+    </section>
+
+    <section class="page-menu">
+		<div class="menu">
+			<ul>
+			    <li><a href="#about" id="a_menu"><img src="images/About.png" alt="image04" /></a></li>
+			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd Space.png" alt="image04" /></a></li>
+			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34.png" alt="image04" /></a></li>
+			    <li><a href="#contact" id="c_menu"><img src="images/Contact.png" alt="image04" /></a></li>
+			</ul>
+		
+		</div>
+    </section>
+
+	<section class="s-page-menu">
+		<div class="s-menu">
+			<ul>
+			   <li><a href="#about" id="a_menu"><img src="images/About-s.png" alt="image04" /></a></li>
+			    <li><a href="#3rd_space" id="space3_menu"><img src="images/3rd  Space-s.png" alt="image04" /></a></li>
+			    <li><a href="#unispace34" id="uni_menu"><img src="images/Unispace 34-s.png" alt="image04" /></a></li>
+			    <li><a href="#contact" id="c_menu"><img src="images/Contact-s.png" alt="image04" /></a></li>
+			</ul>
+		</div>
+    </section>
+
+    <section class="main-content">
+	<div class="middle">
+		<img src="images/middle.gif" alt="Smiley face"width="100%">
+	</div>
+	<div class="middle-s">
+		<img src="images/middle-s.jpg" alt="Smiley face"width="100%">
+	</div>
+<h2 id="about">About</h2>
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+
+
+<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h2 id="3rd_space">3rd Space</h2>
+<div class="gallery">
+					<div class="image-preview">
+						<img id="preview" src="images/large/3rd-4.jpg" />
+					</div>
+					<!-- Elastislide Carousel -->
+					<ul id="carousel" class="elastislide-list">
+						<li data-preview="images/large/3rd-4.jpg"><a href="javascript:;"><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
+						<li data-preview="images/large/3rd-5.jpg"><a href="javascript:;"><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
+						<li data-preview="images/large/3rd-6.jpg"><a href="javascript:;"><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
+						<li data-preview="images/large/3rd-7.jpg"><a href="javascript:;"><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
+						<li data-preview="images/large/3rd-1.jpg"><a href="javascript:;"><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
+						<li data-preview="images/large/3rd-2.jpg"><a href="javascript:;"><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
+						<li data-preview="images/large/3rd-8.jpg"><a href="javascript:;"><img src="images/small/3rd-8.jpg" alt="image08" /></a></li>
+						<li data-preview="images/large/3rd-9.jpg"><a href="javascript:;"><img src="images/small/3rd-9.jpg" alt="image09" /></a></li>
+						<li data-preview="images/large/3rd-10.jpg"><a href="javascript:;"><img src="images/small/3rd-10.jpg" alt="image10" /></a></li>
+					</ul>
+					<!-- End Elastislide Carousel -->
+				</div>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div class="two-col">
+	<div class='content'>
+		<div id='calendar'></div>
+	</div>
+	<div class="sidebar-right"><p>3rd space<br/>
+제 3공간은 복합여가공간으로 가정과 일터 외에 나만의<br/>
+우리만의 아지트같은 공간을 표방합니다.<br/>
+ 
+"좋은 모임을 만들자."<br/>
+"캐주얼한 모임과 파티가 자연스러워 지게 하자."<br/>
+"취미공간 내 작업실, 아지트를 갖게 하자"<br/>
+ 
+다 똑같은 취미와 소비적 여가를 벗고
+<br/>자신이 진정 좋아하는 일을, 즐거움을 향유하고자 하는 사람들이
+<br/>이 공간을 찾았으면 하는 바람입니다.<br/>
+<br/>
+PARTIES<br/>
+PERSONAL TRAINING<br/>
+WORKSHOPS<br/>
+PRIVATE GATHERINGS<br/>
+CLASS<br/>
+AND A LOT MORE</p></div>
+</div>
+
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<h2 id="unispace34">UniSpace34</h2>
+<div class="gallery">
+	<div class="image-preview">
+		<img id="preview2" src="images/large/4.jpg" />
+	</div>
+	<!-- Elastislide Carousel -->
+	<ul id="carousel2" class="elastislide-list">
+		<li data-preview="images/large/4.jpg"><a href="javascript:;"><img src="images/small/4.jpg" alt="image04" /></a></li>
+		<li data-preview="images/large/5.jpg"><a href="javascript:;"><img src="images/small/5.jpg" alt="image05" /></a></li>
+		<li data-preview="images/large/6.jpg"><a href="javascript:;"><img src="images/small/6.jpg" alt="image06" /></a></li>
+		<li data-preview="images/large/7.jpg"><a href="javascript:;"><img src="images/small/7.jpg" alt="image07" /></a></li>
+		<li data-preview="images/large/1.jpg"><a href="javascript:;"><img src="images/small/1.jpg" alt="image01" /></a></li>
+		<li data-preview="images/large/2.jpg"><a href="javascript:;"><img src="images/small/2.jpg" alt="image02" /></a></li>
+		<li data-preview="images/large/3.jpg"><a href="javascript:;"><img src="images/small/3.jpg" alt="image03" /></a></li>
+		<li data-preview="images/large/8.jpg"><a href="javascript:;"><img src="images/small/8.jpg" alt="image08" /></a></li>
+		<li data-preview="images/large/9.jpg"><a href="javascript:;"><img src="images/small/9.jpg" alt="image09" /></a></li>
+		<li data-preview="images/large/10.jpg"><a href="javascript:;"><img src="images/small/10.jpg" alt="image10" /></a></li>
+	</ul>
+	<!-- End Elastislide Carousel -->
+</div>
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<div class="two-col">
+	<div class='content'>
+		<div id='calendar2'></div>
+	</div>
+	<div class="sidebar-right"><p>3rd space<br/>
+제 3공간은 복합여가공간으로 가정과 일터 외에 나만의<br/>
+우리만의 아지트같은 공간을 표방합니다.<br/>
+ 
+"좋은 모임을 만들자."<br/>
+"캐주얼한 모임과 파티가 자연스러워 지게 하자."<br/>
+"취미공간 내 작업실, 아지트를 갖게 하자"<br/>
+ 
+다 똑같은 취미와 소비적 여가를 벗고
+<br/>자신이 진정 좋아하는 일을, 즐거움을 향유하고자 하는 사람들이
+<br/>이 공간을 찾았으면 하는 바람입니다.<br/>
+<br/>
+PARTIES<br/>
+PERSONAL TRAINING<br/>
+WORKSHOPS<br/>
+PRIVATE GATHERINGS<br/>
+CLASS<br/>
+AND A LOT MORE</p></div>
+</div>
+<h2 id="contact">Contact</h2>
+<div class="two-col">
+	<div class="sidebar-left"><p>하이퍼 스테이션<br>
+서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
+(3호선 남부터미널역 5번 출구 100m)</p></div>
+	<div class='content'>
+		<div id="googleMap" style="width:700px;height:380px;"></div>
+	</div>
+</div>
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/0Peter0/testpage.github.com">Testpage.GitHub.com</a> is maintained by <a href="https://github.com/0Peter0">0Peter0</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+		<script type="text/javascript">
+		var map;
+		$(document).ready(function() {
+		$('#calendar').fullCalendar({
+			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
+			events: {
+				googleCalendarId: 'daktem2000@gmail.com',
+					height: 400,
+				contentHeight: 460,
+				className: 'gcal-event' // an option!
+			}
+		});
+		$('#calendar2').fullCalendar({
+			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
+			events: {
+				googleCalendarId: 'daktem2000@gmail.com',
+					height: 400,
+				contentHeight: 460,
+				className: 'gcal-event' // an option!
+			}
+		});
+	});
+			
+			function initialize() {
+			  var marker;
+			  var latlng = new google.maps.LatLng(37.4843464, 127.01444140000001);
+			  var mapProp = {
+				center:latlng,
+				zoom:17,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+
+			  map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+			  // This event listener calls addMarker() when the map is clicked.
+			   // Add a marker at the center of the map.
+			  addMarker(latlng, map);
+			}
+			function addMarker(location, map) {
+			  // Add the marker at the clicked location, and add the next-available label
+			  // from the array of alphabetical characters.
+			  var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			  });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+
+			
+			var num = 302; //number of pixels before modifying styles
+			
+			$(window).bind('scroll', function () {
+				if ($(window).scrollTop() > num) {
+					$('.menu').addClass('fixed');
+					$('.s-menu').addClass('fixed');
+				} else {
+					$('.menu').removeClass('fixed');
+					$('.s-menu').removeClass('fixed');
+				}
+			});
+
+			var current = 0,
+
+				$preview = $( '#preview' ),
+				$carouselEl = $( '#carousel' ),
+				$carouselItems = $carouselEl.children(),
+				carousel = $carouselEl.elastislide( {
+					current : current,
+					minItems : 4,
+					onClick : function( el, pos, evt ) {
+
+						changeImage( el, pos );
+						evt.preventDefault();
+
+					},
+					onReady : function() {
+
+			//			changeImage( $carouselItems.eq( current ), current );
+						
+					}
+				} );
+				var current2 = 0,
+				$preview2 = $( '#preview2' ),
+				$carouselEl2 = $( '#carousel2' ),
+				$carouselItems2 = $carouselEl2.children(),
+				carousel2 = $carouselEl2.elastislide( {
+					current : current2,
+					minItems : 4,
+					onClick : function( el, pos, evt ) {
+						changeImage2( el, pos );
+						evt.preventDefault();
+
+					},
+					onReady : function() {
+
+			//			changeImage2( $carouselItems2.eq( current ), current2 );
+						
+					}
+				} );
+
+			function changeImage( el, pos ) {
+				$preview.attr( 'src', el.data( 'preview' ) );
+				$carouselItems.removeClass( 'current-img' );
+				el.addClass( 'current-img' );
+				carousel.setCurrent( pos );
+
+			}
+
+			function changeImage2( el, pos ) {
+				$preview2.attr( 'src', el.data( 'preview' ) );
+				console.log("el.data( 'preview' )"+el.data( 'preview' ));
+				$carouselItems2.removeClass( 'current-img' );
+				el.addClass( 'current-img' );
+				carousel2.setCurrent( pos );
+
+			}
+
+		</script>
+  </body>
+</html>
