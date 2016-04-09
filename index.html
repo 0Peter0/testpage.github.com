@@ -17,8 +17,7 @@
 <script src="http://fullcalendar.io/js/fullcalendar-2.4.0/lib/jquery-ui.custom.min.js"></script>
 <script src='http://fullcalendar.io/js/fullcalendar-2.4.0/fullcalendar.min.js'></script>
 <script src='http://fullcalendar.io/js/fullcalendar-2.4.0/gcal.js'></script>
-<script  
-src="http://maps.googleapis.com/maps/api/js?key='AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc'">
+<!-- <script src="http://maps.googleapis.com/maps/api/js"> -->
 </script>
 	<script src="js/modernizr.custom.17475.js"></script>
 	<script type="text/javascript" src="js/jquerypp.custom.js"></script>
@@ -166,7 +165,7 @@ AND A LOT MORE</p></div>
 서울시 서초구 효령로 276 B104호 서초동, 덕암빌딩<br>
 (3호선 남부터미널역 5번 출구 100m)</p></div>
 	<div class='content'>
-		<div id="googleMap" style="width:700px;height:380px;"></div>
+	<!--	<div id="googleMap" style="width:700px;height:380px;"></div> -->
 	</div>
 </div>
       <footer class="site-footer">
@@ -186,7 +185,7 @@ AND A LOT MORE</p></div>
 					height: 400,
 				contentHeight: 460,
 				className: 'gcal-event' // an option!
-			}*/
+			}
 		});
 		$('#calendar2').fullCalendar({
 /*			googleCalendarApiKey: 'AIzaSyBVzwpzPszVskEvHIw9kBh18G1-riE32tc',
@@ -200,7 +199,7 @@ AND A LOT MORE</p></div>
 	});
 			
 			function initialize() {
-			  var marker;
+	/*		  var marker;
 			  var latlng = new google.maps.LatLng(37.4843464, 127.01444140000001);
 			  var mapProp = {
 				center:latlng,
@@ -223,6 +222,7 @@ AND A LOT MORE</p></div>
 			}
 
 			google.maps.event.addDomListener(window, 'load', initialize);
+			*/
 
 			
 			var num = 302; //number of pixels before modifying styles
