@@ -118,11 +118,11 @@ AND A LOT MORE</p></div>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 <h2 id="unispace34">UniSpace34</h2>
+<!--
 <div class="gallery">
 	<div class="image-preview">
 		<img id="preview2" src="images/large/4.jpg" />
 	</div>
-	<!-- Elastislide Carousel -->
 	<ul id="carousel2" class="elastislide-list">
 		<li data-preview="images/large/4.jpg"><a href="javascript:;"><img src="images/small/4.jpg" alt="image04" /></a></li>
 		<li data-preview="images/large/5.jpg"><a href="javascript:;"><img src="images/small/5.jpg" alt="image05" /></a></li>
@@ -135,8 +135,7 @@ AND A LOT MORE</p></div>
 		<li data-preview="images/large/9.jpg"><a href="javascript:;"><img src="images/small/9.jpg" alt="image09" /></a></li>
 		<li data-preview="images/large/10.jpg"><a href="javascript:;"><img src="images/small/10.jpg" alt="image10" /></a></li>
 	</ul>
-	<!-- End Elastislide Carousel -->
-</div>
+</div> -->
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 <div class="two-col">
 	<div class='content'>
@@ -258,7 +257,7 @@ AND A LOT MORE</p></div>
 						
 					}
 				} );
-				var current2 = 0,
+		/*		var current2 = 0,
 				$preview2 = $( '#preview2' ),
 				$carouselEl2 = $( '#carousel2' ),
 				$carouselItems2 = $carouselEl2.children(),
@@ -276,7 +275,7 @@ AND A LOT MORE</p></div>
 						changeImage2( $carouselItems2.eq( current ), current2 );
 						
 					}
-				} );
+				} );*/
 
 			function changeImage( el, pos ) {
 				$preview.attr( 'src', el.data( 'preview' ) );
