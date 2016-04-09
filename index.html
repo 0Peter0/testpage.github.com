@@ -278,6 +278,7 @@ AND A LOT MORE</p></div>
 
 			function changeImage( el, pos ) {
 				$preview.attr( 'src', el.data( 'preview' ) );
+				console.log("el.data( 'preview' )"+el.data( 'preview' ));
 				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
 				carousel.setCurrent( pos );
