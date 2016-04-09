@@ -253,7 +253,7 @@ AND A LOT MORE</p></div>
 					},
 					onReady : function() {
 
-						changeImage( $carouselItems.eq( current ), current );
+			//			changeImage( $carouselItems.eq( current ), current );
 						
 					}
 				} );
@@ -271,7 +271,7 @@ AND A LOT MORE</p></div>
 					},
 					onReady : function() {
 
-						changeImage2( $carouselItems2.eq( current ), current2 );
+			//			changeImage2( $carouselItems2.eq( current ), current2 );
 						
 					}
 				} );
