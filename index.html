@@ -256,6 +256,7 @@ AND A LOT MORE</p></div>
 					onReady : function() {
 
 						changeImage( $carouselItems.eq( current ), current );
+						console.log("onReady end");
 						
 					}
 				} );
@@ -285,6 +286,7 @@ AND A LOT MORE</p></div>
 				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
 				carousel.setCurrent( pos );
+				console.log("changeImage end");
 
 			}
 
