@@ -250,6 +250,9 @@ src="http://maps.googleapis.com/maps/api/js">
 				console.log("changeImage1");
 				console.log("el:::::"+el);
 				console.log("pos:::::"+pos);
+				
+				var str = JSON.stringify(pos, null, 4); // (Optional) beautiful indented output.
+				console.log(str); // Logs output to dev tools console.
 				$preview.attr( 'src', el.data( 'preview' ) );
 				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
