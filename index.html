@@ -76,9 +76,9 @@ src="http://maps.googleapis.com/maps/api/js">
 					</div>
 					<!-- Elastislide Carousel -->
 					<ul id="carousel" class="elastislide-list">
-						<li data-preview="images/large/3rd-4.jpg"><a href="javascript:;" onclick="delchk(0);"><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
-						<li data-preview="images/large/3rd-5.jpg"><a href="javascript:;" onclick="delchk(1);"><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
-						<li data-preview="images/large/3rd-6.jpg"><a href="javascript:;" onclick="delchk(2);"><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
+						<li data-preview="images/large/3rd-4.jpg"><a href="javascript:;" onclick="delchk();"><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
+						<li data-preview="images/large/3rd-5.jpg"><a href="javascript:;"><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
+						<li data-preview="images/large/3rd-6.jpg"><a href="javascript:;"><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
 						<li data-preview="images/large/3rd-7.jpg"><a href="javascript:;"><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
 						<li data-preview="images/large/3rd-1.jpg"><a href="javascript:;"><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
 						<li data-preview="images/large/3rd-2.jpg"><a href="javascript:;"><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
@@ -266,7 +266,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			}
 			function delchk(pos){
 				console.log("delchk:::::click");
-				var el = this;
+				var el = $carouselEl;
 				$preview2.attr( 'src', el.data( 'preview' ) );
 				$carouselItems2.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
