@@ -245,16 +245,12 @@ AND A LOT MORE</p></div>
 				carousel = $carouselEl.elastislide( {
 					current : current,
 					minItems : 4,
+					onReady : function() {
+						changeImage( $carouselItems.eq( current ), current );
+					},
 					onClick : function( el, pos, evt ) {
-
 						changeImage( el, pos );
 						evt.preventDefault();
-
-					},
-					onReady : function() {
-
-						changeImage( $carouselItems.eq( current ), current );
-						
 					}
 				} );
 				var current2 = 0,
@@ -264,19 +260,18 @@ AND A LOT MORE</p></div>
 				carousel2 = $carouselEl2.elastislide( {
 					current : current2,
 					minItems : 4,
+					onReady : function() {
+						changeImage2( $carouselItems2.eq( current ), current2 );
+					},
 					onClick : function( el, pos, evt ) {
 						changeImage2( el, pos );
 						evt.preventDefault();
 
-					},
-					onReady : function() {
-
-						changeImage2( $carouselItems2.eq( current ), current2 );
-						
 					}
 				} );
 
 			function changeImage( el, pos ) {
+				console.log("changeImage1");
 				$preview.attr( 'src', el.data( 'preview' ) );
 				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
@@ -285,8 +280,9 @@ AND A LOT MORE</p></div>
 			}
 
 			function changeImage2( el, pos ) {
+				console.log("changeImage2");
 				$preview2.attr( 'src', el.data( 'preview' ) );
-				console.log("el.data( 'preview' )"+el.data( 'preview' ));
+				
 				$carouselItems2.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
 				carousel2.setCurrent( pos );
