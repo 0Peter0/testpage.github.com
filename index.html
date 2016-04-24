@@ -269,10 +269,10 @@ src="http://maps.googleapis.com/maps/api/js">
 				el = $( '#carousel' ),
 				console.log("el"+el.data);
 				console.log("delchk:::::click");
-				$preview2.attr( 'src', el.data( 'preview' ) );
-				$carouselItems2.removeClass( 'current-img' );
+				$preview.attr( 'src', el.data( 'preview' ) );
+				$carouselItems.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
-				carousel2.setCurrent( pos );
+				carousel.setCurrent( pos );
 			}
 		</script>
   </body>
