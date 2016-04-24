@@ -267,9 +267,8 @@ src="http://maps.googleapis.com/maps/api/js">
 			function delchk(pos){
 				console.log("delchk:::::click");
 				var el = $carouselEl;
-				var str = JSON.stringify(el, null, 4); // (Optional) beautiful indented output.
-				console.log(str); // Logs output to dev tools console.
-				$preview.attr( 'src', el.data( 'preview' ) );
+				console.log("el"+el.data);
+				console.log("delchk:::::click");
 				$preview2.attr( 'src', el.data( 'preview' ) );
 				$carouselItems2.removeClass( 'current-img' );
 				el.addClass( 'current-img' );
