@@ -266,7 +266,7 @@ src="http://maps.googleapis.com/maps/api/js">
 			}
 			function delchk(pos){
 				console.log("delchk:::::click");
-				var el = $carouselEl;
+				el = $( '#carousel' ),
 				console.log("el"+el.data);
 				console.log("delchk:::::click");
 				$preview2.attr( 'src', el.data( 'preview' ) );
