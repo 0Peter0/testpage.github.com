@@ -7,7 +7,12 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71; 
+  font-weight: 300;
+  font-size: 15px;
+  word-break: keep-all;
+  color: white;
+  background-color: #333333;}
 
 a {
   color: #1e6bb8;
@@ -320,6 +325,7 @@ display: block;
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+  word-break:keep-all;
   font-weight: normal;
   color: White }
 .main-content p {
