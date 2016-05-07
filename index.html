@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+   <style>
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: 100px;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 100px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+</style>
     <meta charset="UTF-8">
     <title>Unispace</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
-	<link rel="stylesheet" type="text/css" href="css/custom.css" />
 	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.css' rel='stylesheet' />
 	<link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.4.0/fullcalendar.print.css' rel='stylesheet' media='print' />
 <script src='http://fullcalendar.io/js/fullcalendar-2.4.0/lib/moment.min.js'></script>
@@ -17,12 +33,11 @@
 <script src="http://fullcalendar.io/js/fullcalendar-2.4.0/lib/jquery-ui.custom.min.js"></script>
 <script src='http://fullcalendar.io/js/fullcalendar-2.4.0/fullcalendar.min.js'></script>
 <script src='http://fullcalendar.io/js/fullcalendar-2.4.0/gcal.js'></script>
-<script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
-	<script src="js/modernizr.custom.17475.js"></script>
-	<script type="text/javascript" src="js/jquerypp.custom.js"></script>
-		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<link rel="stylesheet" href="dist/photoswipe.css"> 
+<link rel="stylesheet" href="dist/default-skin/default-skin.css"> 
+<script src="dist/photoswipe.min.js"></script> 
+<script src="dist/photoswipe-ui-default.min.js"></script> 
   </head>
   <body>
     <section class="page-header">
@@ -70,24 +85,57 @@ src="http://maps.googleapis.com/maps/api/js">
 	<p style="margin-bottom:3em;"><span style="color:#C8C8C8; padding-bottom = 50px">#Unispace#Upcycling#Space컨설팅#Space브랜딩#BM</span></p>
 </div>
 <h2 id="3rd_space">3rd Space&nbsp;<span style="font-size: 0.7rem">[복합여가공간]</span></h2>
-<div class="gallery">
-					<div class="image-preview">
-						<img id="preview" src="images/large/3rd-4.jpg" />
-					</div>
-					<!-- Elastislide Carousel -->
-					<ul id="carousel" class="elastislide-list">
-						<li data-preview="images/large/3rd-4.jpg"><a href="javascript:;"><img src="images/small/3rd-4.jpg" alt="image04" /></a></li>
-						<li data-preview="images/large/3rd-5.jpg"><a href="javascript:;"><img src="images/small/3rd-5.jpg" alt="image05" /></a></li>
-						<li data-preview="images/large/3rd-6.jpg"><a href="javascript:;"><img src="images/small/3rd-6.jpg" alt="image06" /></a></li>
-						<li data-preview="images/large/3rd-7.jpg"><a href="javascript:;"><img src="images/small/3rd-7.jpg" alt="image07" /></a></li>
-						<li data-preview="images/large/3rd-1.jpg"><a href="javascript:;"><img src="images/small/3rd-1.jpg" alt="image01" /></a></li>
-						<li data-preview="images/large/3rd-2.jpg"><a href="javascript:;"><img src="images/small/3rd-2.jpg" alt="image02" /></a></li>
-						<li data-preview="images/large/3rd-8.jpg"><a href="javascript:;"><img src="images/small/3rd-8.jpg" alt="image08" /></a></li>
-						<li data-preview="images/large/3rd-9.jpg"><a href="javascript:;"><img src="images/small/3rd-9.jpg" alt="image09" /></a></li>
-						<li data-preview="images/large/3rd-10.jpg"><a href="javascript:;"><img src="images/small/3rd-10.jpg" alt="image10" /></a></li>
-					</ul>
-					<!-- End Elastislide Carousel -->
-				</div>
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-10.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-10.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-9.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-9.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-8.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-8.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-7.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-7.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-6.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-6.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-5.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-5.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-4.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-4.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure>
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-2.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-2.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure>
+   </figure><figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3rd-1.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/large/3rd-1.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2.1</figcaption>
+  </figure>
+</div>
 
 <p style="margin-bottom:2em;"></p>
 <div class="two-col">
@@ -110,24 +158,66 @@ src="http://maps.googleapis.com/maps/api/js">
 
 <p></p>
 <h2 id="unispace34">Sogongro34&nbsp;<span style="font-size: 0.7rem">[도심형 스테이]</span></h2>
-<div class="gallery">
-	<div class="image-preview">
-		<img id="preview2" src="images/large/4.jpg" />
-	</div>
-	<!-- Elastislide Carousel -->
-	<ul id="carousel2" class="elastislide-list">
-		<li data-preview="images/large/4.jpg"><a href="javascript:;"><img src="images/small/4.jpg" alt="image04" /></a></li>
-		<li data-preview="images/large/5.jpg"><a href="javascript:;"><img src="images/small/5.jpg" alt="image05" /></a></li>
-		<li data-preview="images/large/6.jpg"><a href="javascript:;"><img src="images/small/6.jpg" alt="image06" /></a></li>
-		<li data-preview="images/large/7.jpg"><a href="javascript:;"><img src="images/small/7.jpg" alt="image07" /></a></li>
-		<li data-preview="images/large/1.jpg"><a href="javascript:;"><img src="images/small/1.jpg" alt="image01" /></a></li>
-		<li data-preview="images/large/2.jpg"><a href="javascript:;"><img src="images/small/2.jpg" alt="image02" /></a></li>
-		<li data-preview="images/large/3.jpg"><a href="javascript:;"><img src="images/small/3.jpg" alt="image03" /></a></li>
-		<li data-preview="images/large/8.jpg"><a href="javascript:;"><img src="images/small/8.jpg" alt="image08" /></a></li>
-		<li data-preview="images/large/9.jpg"><a href="javascript:;"><img src="images/small/9.jpg" alt="image09" /></a></li>
-		<li data-preview="images/large/10.jpg"><a href="javascript:;"><img src="images/small/10.jpg" alt="image10" /></a></li>
-	</ul>
-	<!-- End Elastislide Carousel -->
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/4.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/4.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 1</figcaption>
+
+  </figure>
+
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/3.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/3.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 2</figcaption>
+  </figure>
+
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/2.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/2.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 3</figcaption>
+  </figure>
+
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/1.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/1.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/5.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/5.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/6.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/6.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/7.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/7.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/9.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/9.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="http://unispace.co.kr/images/large/10.jpg" itemprop="contentUrl" data-size="1200x675">
+      <img src="http://unispace.co.kr/images/small/10.jpg" itemprop="thumbnail" alt="Image description" />
+    </a>
+    <figcaption itemprop="caption description">Image caption 4</figcaption>
+  </figure>
 </div>
 <p style="margin-bottom:2em;"></p>
 <div class="two-col">
@@ -151,11 +241,75 @@ src="http://maps.googleapis.com/maps/api/js">
 		<div id="googleMap" style="width:700px;height:380px;"></div>
 	</div>
 </div>
+
       <footer class="site-footer">
        
       </footer>
 
     </section>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg"></div>
+
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+
+    <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+    <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+
+      <div class="pswp__top-bar">
+
+        <!--  Controls are self-explanatory. Order can be changed. -->
+
+        <div class="pswp__counter"></div>
+
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader--active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
 		<script type="text/javascript">
 		var map;
 		$(document).ready(function() {
@@ -213,56 +367,219 @@ src="http://maps.googleapis.com/maps/api/js">
 					$('.s-menu').removeClass('fixed');
 				}
 			});
-			var current = 0,
-				$preview = $( '#preview' ),
-				$carouselEl = $( '#carousel' ),
-				$carouselItems = $carouselEl.children(),
-				carousel = $carouselEl.elastislide( {
-					current : current,
-					minItems : 4,
-					onReady : function() {
-						changeImage( $carouselItems.eq( current ), current );
-						
-					},
-					onClick : function( el, pos, evt ) {
-						console.log("current on clik");
-						changeImage( el, pos );
-						evt.preventDefault();
-					}
-				} );
-				var current2 = 0,
-				$preview2 = $( '#preview2' ),
-				$carouselEl2 = $( '#carousel2' ),
-				$carouselItems2 = $carouselEl2.children(),
-				carousel2 = $carouselEl2.elastislide( {
-					current : current2,
-					minItems : 4,
-					onReady : function() {
-						changeImage2( $carouselItems2.eq( current ), current2 );
-					},
-					onClick : function( el, pos, evt ) {
-						console.log("current2 on clik");
-						changeImage2( el, pos );
-						evt.preventDefault();
-					}
-				} );
-			function changeImage( el, pos ) {
-				console.log("changeImage1");
-				console.log("pos:::::"+pos);
-				
-				var str = JSON.stringify(el, null, 4); // (Optional) beautiful indented output.
-				console.log(str); // Logs output to dev tools console.
-				$preview.attr( 'src', el.data( 'preview' ) );
-				$carouselItems.removeClass( 'current-img' );
-				el.addClass( 'current-img' );
-				carousel.setCurrent( pos );
-			}
-			function changeImage2( el, pos ) {
-				console.log("changeImage2");
-				$preview2.attr( 'src', el.data( 'preview' ) );
-				$carouselItems2.removeClass( 'current-img' );
-				el.addClass( 'current-img' );
-				carousel2.setCurrent( pos );
-			}
+			var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            size,
+            item;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            size = linkEl.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    // find nearest parent element
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    // triggers when user clicks on thumbnail
+    var onThumbnailsClick = function(e) {
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        // find root element of slide
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        // find index of clicked item by looping through all child nodes
+        // alternatively, you may define index via data- attribute
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+
+
+        if(index >= 0) {
+            // open PhotoSwipe if valid index found
+            openPhotoSwipe( index, clickedGallery );
+        }
+        return false;
+    };
+
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+        params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');  
+            if(pair.length < 2) {
+                continue;
+            }           
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        // define options (if needed)
+        options = {
+
+            // define gallery index (for URL)
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                // See Options -> getThumbBoundsFn section of documentation for more info
+                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect(); 
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
+        };
+
+        // PhotoSwipe opened from URL
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                // parse real index when custom PIDs are used 
+                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                // in URL indexes start from 1
+                options.index = parseInt(index, 10) - 1;
+            }
+        } else {
+            options.index = parseInt(index, 10);
+        }
+
+        // exit if index not found
+        if( isNaN(options.index) ) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+		options.mainClass = 'pswp--minimal--dark';
+		options.barsSize = {top:0,bottom:0};
+		options.captionEl = false;
+		options.fullscreenEl = false;
+		options.shareEl = false;
+		options.bgOpacity = 0.85;
+		options.tapToClose = true;
+		options.tapToToggleControls = false;
+
+        // Pass data to PhotoSwipe and initialize it
+        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    // loop through all gallery elements and bind events
+    var galleryElements = document.querySelectorAll( gallerySelector );
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+    }
+};
+
+// execute above function
+initPhotoSwipeFromDOM('.my-gallery');
 		</script>
   </body>
+</html>
