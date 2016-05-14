@@ -35,7 +35,27 @@ a {
 	vertical-align: middle;
 	border: none;
 }
-
+.my-gallery {
+  margin: 0 auto;
+    text-align: left;
+    width: 1024px;
+}
+.my-gallery img {
+  width: 100%;
+  height: 100px;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 100px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+.gallery-grid figcaption {
+  display: none;
+}
 .s-menu li{
 	display: inline;
     list-style-type: none;
@@ -70,6 +90,11 @@ a {
 		border: none;
 }
 @media screen and (min-width: 64em) {
+.my-gallery {
+  margin: 0 auto;
+    text-align: left;
+    width: 1024px;
+}
   .two-col{
 	display: table;
     width: 100%;
@@ -88,8 +113,91 @@ a {
 }
 }
 
+.gallery-grid {
+    margin: 35px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+.gallery-grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 16.6666667%; /* Fallback */
+    width: -webkit-calc(100% / 6);
+    width: calc(100% / 6);
+}
+
+.gallery-grid figure a,
+.gallery-grid figure a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.gallery-grid figure a img {
+    width: 100%;
+    height: auto;    
+}
+
+
+
+@media screen and (max-width: 1190px) {
+    .gallery-grid figure {
+        width: 20%; /* Fallback */
+        width: -webkit-calc(100% / 5);
+        width: calc(100% / 5);
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .gallery-grid figure {
+        width: 25%; /* Fallback */
+        width: -webkit-calc(100% / 4);
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .gallery-grid figure {
+        width: 33.3333333%; /* Fallback */
+        width: -webkit-calc(100% / 3);
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .gallery-grid figure {
+        width: 33.3333333%; /* Fallback */
+        width: -webkit-calc(100% / 3);
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gallery-grid figure {
+        width: 50%; /* Fallback */
+        width: -webkit-calc(100% / 2);
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .gallery-grid figure {
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+.my-gallery {
+  margin: 0 auto;
+    text-align: left;
+    width: 750px;
+	height: 200px;
+}
  .two-col{
 	display: block;
     width: 100%;
@@ -110,6 +218,11 @@ a {
 }}
 
 @media screen and (max-width: 42em) {
+.my-gallery {
+  margin: 0 auto;
+    text-align: left;
+    width: 300px;
+}
    .two-col{
 	display: table;
     width: 100%;
@@ -130,34 +243,6 @@ a {
 	display : table-row;
 }
 }
-
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    margin-left: 1rem; }
-
-.btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
-
-@media screen and (min-width: 64em) {
-  .btn {
-    padding: 0.75rem 1rem; } }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .btn {
@@ -318,8 +403,7 @@ display: block;
   .project-tagline {
     font-size: 1rem; } }
 
-.main-content :first-child {
-  margin-top: 0; }
+
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
